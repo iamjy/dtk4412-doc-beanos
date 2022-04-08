@@ -1,25 +1,31 @@
-.. DTK4412-beanos documentation master file, created by
-   sphinx-quickstart on Tue Feb 15 02:29:06 2022.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+Welcome to 'BeanOS' Documentation
+================================
 
-Welcome to DTK4412-beanos's documentation!
-==========================================
+임베디드 OS 개발 프로젝트
+
+.. _Exynos4412: https://en.wikipedia.org/wiki/Exynos
+
+Kernel ( FW / RTOS )
+----------------
+
+:doc:`configure </linux/kernel/configure>`
+    How to configure kernel.
+
+:doc:`compile </linux/kernel/compile>`
+    How to configure kernel.
+    
+:doc:`development </linux/kernel/development>`
+    Guidelines and release planning and check dependencies.
+    
+:doc:`changelog </linux/kernel/changelog>`
+    The kernel development changelog.
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
-
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
-Kernel
-======
-
-https://github.com/iamjy/beanos.git
+   :hidden:
+   :caption: Kernel
+   
+   /linux/kernel/configure
+   /linux/kernel/compile
+   /linux/kernel/development
+   /linux/kernel/changelog
