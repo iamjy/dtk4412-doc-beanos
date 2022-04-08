@@ -8,16 +8,16 @@ Welcome to 'BeanOS' Documentation
 Kernel ( FW / RTOS )
 ----------------
 
-:doc:`configure </linux/kernel/configure>`
+:doc:`configure </source/os/kernel/configure>`
     How to configure kernel.
 
-:doc:`compile </linux/kernel/compile>`
+:doc:`compile </source/os/kernel/compile>`
     How to configure kernel.
     
-:doc:`development </linux/kernel/development>`
+:doc:`development </source/os/kernel/development>`
     Guidelines and release planning and check dependencies.
     
-:doc:`changelog </linux/kernel/changelog>`
+:doc:`changelog </source/os/kernel/changelog>`
     The kernel development changelog.
 
 .. toctree::
