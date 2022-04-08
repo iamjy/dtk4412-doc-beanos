@@ -25,7 +25,7 @@ Kernel ( FW / RTOS )
    :hidden:
    :caption: Kernel
    
-   /os/kernel/configure
-   /os/kernel/compile
-   /os/kernel/development
-   /os/kernel/changelog
+   /source/os/kernel/configure
+   /source/os/kernel/compile
+   /source/os/kernel/development
+   /source/os/kernel/changelog
